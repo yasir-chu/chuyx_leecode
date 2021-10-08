@@ -3,6 +3,15 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/ClimbingStairs.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/doc/content/ClimbingStairs.md" />
+              <option name="path" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/ClimbingStairs.java" />
+              <option name="questionId" value="70" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/CombinationSum.java">
           <value>
             <LeetcodeEditor>
