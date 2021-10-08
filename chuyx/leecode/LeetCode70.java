@@ -3,9 +3,9 @@ package leecode;
 /**
  * @author yuxiang.chu
  */
-public class Leecode70{
+public class LeetCode70 {
     public static void main(String[] args) {
-        Solution solution = new Leecode70().new Solution();
+        Solution solution = new LeetCode70().new Solution();
 
     }
 
