@@ -12,6 +12,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/BestTimeToBuyAndSellStock.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/doc/content/BestTimeToBuyAndSellStock.md" />
+              <option name="path" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/BestTimeToBuyAndSellStock.java" />
+              <option name="questionId" value="121" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/ClimbingStairs.java">
           <value>
             <LeetcodeEditor>
@@ -36,6 +45,15 @@
               <option name="contentPath" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/doc/content/KthLargestElementInAnArray.md" />
               <option name="path" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/KthLargestElementInAnArray.java" />
               <option name="questionId" value="215" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/MergeSortedArray.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/doc/content/MergeSortedArray.md" />
+              <option name="path" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/MergeSortedArray.java" />
+              <option name="questionId" value="88" />
             </LeetcodeEditor>
           </value>
         </entry>
