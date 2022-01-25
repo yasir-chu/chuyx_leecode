@@ -28,3 +28,5 @@ node_modules/
 .svn/
 rebel.xml
 .rebel-remote.xml.*
+
+../chuyx/*.class
