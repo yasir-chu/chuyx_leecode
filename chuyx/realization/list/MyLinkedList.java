@@ -1,4 +1,4 @@
-package realization;
+package realization.list;
 
 /**
  * 单链表的自我实现
