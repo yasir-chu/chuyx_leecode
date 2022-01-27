@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="480e5cff-c09e-46e2-b979-fdc3e979df38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeetCode155.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chuyx/realization/stack/ArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chuyx/realization/stack/BrowsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chuyx/realization/stack/ListStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chuyx/realization/stack/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeeCode160.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeeCode203.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/realization/CircularQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/realization/queue/ArrayQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/realization/queue/CircularQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/realization/queue/ListQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/realization/queue/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuyx/leecode/LeetCode83.java" beforeDir="false" afterPath="$PROJECT_DIR$/chuyx/leecode/LeetCode83.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuyx/realization/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/chuyx/realization/list/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuyx/realization/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/chuyx/realization/list/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +61,39 @@
       <recent name="E:\ideaProject\chuyx_leecode\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LeetCode155">
-    <configuration name="BrowsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="realization.stack.BrowsTest" />
+  <component name="RunManager" selected="Application.Test (2)">
+    <configuration name="CircularQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="realization.CircularQueue" />
       <module name="chuyx_leecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="realization.stack.*" />
+          <option name="PATTERN" value="realization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeeCode160" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.LeeCode160" />
+      <module name="chuyx_leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leecode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeeCode203" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.LeeCode203" />
+      <module name="chuyx_leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leecode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,38 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode69" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.LeetCode69" />
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="realization.queue.Test" />
       <module name="chuyx_leecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leecode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="realization.stack.Test" />
-      <module name="chuyx_leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="realization.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="realization.list.Test" />
-      <module name="chuyx_leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="realization.list.*" />
+          <option name="PATTERN" value="realization.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (2)" />
+        <item itemvalue="Application.CircularQueue" />
+        <item itemvalue="Application.LeeCode203" />
+        <item itemvalue="Application.LeeCode160" />
         <item itemvalue="Application.LeetCode155" />
-        <item itemvalue="Application.BrowsTest" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.LeetCode69" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +165,7 @@
       <workItem from="1642385329042" duration="9806000" />
       <workItem from="1642495491259" duration="2296000" />
       <workItem from="1642658321612" duration="588000" />
-      <workItem from="1643004007742" duration="43652000" />
+      <workItem from="1643004007742" duration="57491000" />
     </task>
     <servers />
   </component>
@@ -202,6 +201,7 @@
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
+        <PinnedItemInfo parentTag="realization.queue.ListQueue$Node" memberName="this$0" />
         <PinnedItemInfo parentTag="practice.LinkedListString$Node" memberName="next" />
         <PinnedItemInfo parentTag="practice.LinkedListString$Node" memberName="data" />
       </pinned-members>
