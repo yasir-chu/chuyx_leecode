@@ -111,6 +111,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/PowxN.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/doc/content/PowxN.md" />
+              <option name="path" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/PowxN.java" />
+              <option name="questionId" value="50" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/RemoveDuplicatesFromSortedList.java">
           <value>
             <LeetcodeEditor>
@@ -126,6 +135,15 @@
               <option name="contentPath" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/doc/content/RemoveLinkedListElements.md" />
               <option name="path" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/RemoveLinkedListElements.java" />
               <option name="questionId" value="203" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/ReorderList.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/doc/content/ReorderList.md" />
+              <option name="path" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/ReorderList.java" />
+              <option name="questionId" value="143" />
             </LeetcodeEditor>
           </value>
         </entry>
