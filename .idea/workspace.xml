@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="480e5cff-c09e-46e2-b979-fdc3e979df38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeeCode104.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeeCode5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chuyx/leecode/My1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeeCode373.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeeCode62.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeeCode64.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chuyx/leecode/LeeCode23.java" beforeDir="false" afterPath="$PROJECT_DIR$/chuyx/leecode/LeeCode23.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chuyx/leecode/LeetCode121.java" beforeDir="false" afterPath="$PROJECT_DIR$/chuyx/leecode/LeetCode121.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chuyx/leecode/LeetCode215.java" beforeDir="false" afterPath="$PROJECT_DIR$/chuyx/leecode/LeetCode215.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chuyx/leecode/LeetCode70.java" beforeDir="false" afterPath="$PROJECT_DIR$/chuyx/leecode/LeetCode70.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +61,7 @@
       <recent name="E:\ideaProject\chuyx_leecode\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.My1">
+  <component name="RunManager" selected="Application.LeeCode64">
     <configuration name="LeeCode23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leecode.LeeCode23" />
       <module name="chuyx_leecode" />
@@ -71,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeeCode33" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.LeeCode33" />
+    <configuration name="LeeCode62" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.LeeCode62" />
       <module name="chuyx_leecode" />
       <extension name="coverage">
         <pattern>
@@ -84,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeeCode5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.LeeCode5" />
+    <configuration name="LeeCode64" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.LeeCode64" />
       <module name="chuyx_leecode" />
       <extension name="coverage">
         <pattern>
@@ -97,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeeCode50" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.LeeCode50" />
+    <configuration name="LeetCode215" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.LeetCode215" />
       <module name="chuyx_leecode" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="My1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.My1" />
+    <configuration name="LeetCode70" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.LeetCode70" />
       <module name="chuyx_leecode" />
       <extension name="coverage">
         <pattern>
@@ -136,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.My1" />
-        <item itemvalue="Application.LeeCode5" />
+        <item itemvalue="Application.LeeCode64" />
+        <item itemvalue="Application.LeeCode62" />
+        <item itemvalue="Application.LeetCode215" />
         <item itemvalue="Application.LeeCode23" />
-        <item itemvalue="Application.LeeCode33" />
-        <item itemvalue="Application.LeeCode50" />
+        <item itemvalue="Application.LeetCode70" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +170,7 @@
       <workItem from="1644373232902" duration="15547000" />
       <workItem from="1644463816650" duration="7041000" />
       <workItem from="1644825375690" duration="9172000" />
-      <workItem from="1645085724604" duration="8440000" />
+      <workItem from="1645085724604" duration="23248000" />
     </task>
     <servers />
   </component>
@@ -230,6 +234,8 @@
         <watch expression="listNode" />
         <watch expression="listNode.next" />
         <watch expression="listNode.next.next" />
+        <watch expression="listNode1.next.next" />
+        <watch expression="listNode1.next.next.next.next.next.next" />
       </configuration>
     </watches-manager>
   </component>

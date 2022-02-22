@@ -46,7 +46,7 @@ public class LeeCode23 {
         ListNode listNode2 = new ListNode(1, new ListNode(3, new ListNode(4)));
         ListNode listNode3 = new ListNode(2, new ListNode(6));
         ListNode[] arr = {listNode, listNode2, listNode3};
-        ListNode listNode1 = solution.mergeKLists2(arr);
+        ListNode listNode1 = solution.mergeKLists3(arr);
     }
 
     public static class ListNode {
@@ -155,6 +155,26 @@ public class LeeCode23 {
                 return -1;
             }
             return index;
+        }
+
+        /**
+         * 分治
+         * @param lists
+         * @return
+         */
+        public ListNode mergeKLists3(ListNode[] lists) {
+            return merge(lists,0, lists.length-1);
+        }
+
+        public ListNode merge(ListNode[] node, int l, int r){
+            if (r == l){
+                return node[l];
+            }
+            if (l > r){
+                return null;
+            }
+            int mid = l  + (r - l - 1)/2;
+            return mergeTwoLists(merge(node, l, mid), merge(node, mid + 1, r));
         }
     }
 }

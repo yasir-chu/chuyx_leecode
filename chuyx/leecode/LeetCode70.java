@@ -29,7 +29,9 @@ package leecode;
 public class LeetCode70 {
     public static void main(String[] args) {
         Solution solution = new LeetCode70().new Solution();
-
+        System.out.println(solution.climbStairs(9));
+        System.out.println(solution.climbStairs2(9));
+        System.out.println(solution.climbStairs3(9));
     }
 
     /**
@@ -38,19 +40,47 @@ public class LeetCode70 {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int climbStairs(int n) {
+            // 一个台阶特殊值 1  b 前n个台阶上的方式  c结果
             int a = 1, b=0, c=0;
             for (int i = 1; i <= n; i++) {
                 c=0;
                 if (i == 1){
+                    // 只有一个台阶的话  只能走一个台阶
                     c = a;
                 }
                 if (i > 1){
+                    // 不只一个台阶的话  可以走b+a种方式
                     c = b + a;
                 }
                 b=a;
                 a=c;
             }
             return c;
+        }
+
+
+        public int climbStairs2(int n) {
+            // 初始化 a=上两个台阶的方式  b=上一个台阶的方式  c = a
+            int a = 2,b=1,c=2;
+
+            // 直接从第三个台阶开始 减少循环次数
+            for (int i = 3; i <= n; i++) {
+                c = a + b;
+                b=a;
+                a=c;
+            }
+            return c;
+        }
+
+        public int climbStairs3(int n) {
+            // 初始化 a=上两个台阶的方式  b=上一个台阶的方式  c = a
+            if (n == 1){
+                return 1;
+            }
+            if (n == 2){
+                return 2;
+            }
+            return climbStairs3(n-1) + climbStairs3(n - 2);
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

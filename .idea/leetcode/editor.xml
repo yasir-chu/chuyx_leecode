@@ -15,7 +15,10 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/doc/content/BestTimeToBuyAndSellStock.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com121" />
+              <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/BestTimeToBuyAndSellStock.java" />
+              <option name="titleSlug" value="best-time-to-buy-and-sell-stock" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -43,6 +46,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/CountPrimes.java" />
               <option name="titleSlug" value="count-primes" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/FindKPairsWithSmallestSums.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/doc/content/FindKPairsWithSmallestSums.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com373" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/FindKPairsWithSmallestSums.java" />
+              <option name="titleSlug" value="find-k-pairs-with-smallest-sums" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -77,7 +91,10 @@
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/doc/content/KthLargestElementInAnArray.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com215" />
+              <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/KthLargestElementInAnArray.java" />
+              <option name="titleSlug" value="kth-largest-element-in-an-array" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -143,6 +160,17 @@
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/doc/content/MinStack.md" />
               <option name="path" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/MinStack.java" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/MinimumPathSum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/doc/content/MinimumPathSum.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com64" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/MinimumPathSum.java" />
+              <option name="titleSlug" value="minimum-path-sum" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -237,11 +265,44 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/SortColors.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/doc/content/SortColors.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com75" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/SortColors.java" />
+              <option name="titleSlug" value="sort-colors" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/Sqrtx.java">
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/doc/content/Sqrtx.md" />
               <option name="path" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/Sqrtx.java" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/TheSkylineProblem.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/doc/content/TheSkylineProblem.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com218" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/TheSkylineProblem.java" />
+              <option name="titleSlug" value="the-skyline-problem" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/UniquePaths.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/doc/content/UniquePaths.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com62" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../../LeetCode/leetcode/editor/cn/UniquePaths.java" />
+              <option name="titleSlug" value="unique-paths" />
             </LeetcodeEditor>
           </value>
         </entry>
