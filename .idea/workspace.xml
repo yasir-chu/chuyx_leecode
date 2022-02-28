@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="480e5cff-c09e-46e2-b979-fdc3e979df38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeeCode77.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chuyx/realization/graph/Graph.java" afterDir="false" />
+    <list default="true" id="5d86ddbc-d07d-47f4-8f9c-cf528b2b7201" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeeCode94.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -43,22 +39,21 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chuyx_design_pattern" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.14084506" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="leetcode.id" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\ideaProject\chuyx_leecode\.idea" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.LeeCode77">
-    <configuration name="LeeCode64" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.LeeCode64" />
+  <component name="RunManager" selected="Application.LeetCode67">
+    <configuration name="LeetCode119" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.LeetCode119" />
       <module name="chuyx_leecode" />
       <extension name="coverage">
         <pattern>
@@ -70,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeeCode75" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.LeeCode75" />
+    <configuration name="LeetCode215" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.LeetCode215" />
       <module name="chuyx_leecode" />
       <extension name="coverage">
         <pattern>
@@ -83,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeeCode77" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.LeeCode77" />
+    <configuration name="LeetCode39" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.LeetCode39" />
       <module name="chuyx_leecode" />
       <extension name="coverage">
         <pattern>
@@ -96,25 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="String (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java.lang.String" />
+    <configuration name="LeetCode67" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.LeetCode67" />
       <module name="chuyx_leecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java.lang.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.jvm.String" />
-      <module name="chuyx_leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.jvm.*" />
+          <option name="PATTERN" value="leecode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,10 +117,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LeeCode77" />
-        <item itemvalue="Application.String (1)" />
-        <item itemvalue="Application.LeeCode75" />
-        <item itemvalue="Application.LeeCode64" />
+        <item itemvalue="Application.LeetCode67" />
+        <item itemvalue="Application.LeetCode39" />
+        <item itemvalue="Application.LeetCode119" />
+        <item itemvalue="Application.LeetCode215" />
       </list>
     </recent_temporary>
   </component>
@@ -151,22 +133,10 @@
       <option name="presentableId" value="Default" />
       <updated>1632899870164</updated>
       <workItem from="1632899872058" duration="16755000" />
-      <workItem from="1633676449072" duration="15345000" />
-      <workItem from="1633765464473" duration="2817000" />
-      <workItem from="1633921061580" duration="3717000" />
-      <workItem from="1634526208404" duration="1338000" />
-      <workItem from="1636534547198" duration="10000" />
-      <workItem from="1642385329042" duration="9806000" />
-      <workItem from="1642495491259" duration="2296000" />
-      <workItem from="1642658321612" duration="588000" />
-      <workItem from="1643004007742" duration="63159000" />
-      <workItem from="1644212231285" duration="16804000" />
-      <workItem from="1644373232902" duration="15547000" />
-      <workItem from="1644463816650" duration="7041000" />
-      <workItem from="1644825375690" duration="9172000" />
-      <workItem from="1645085724604" duration="24424000" />
-      <workItem from="1645517453859" duration="11909000" />
-      <workItem from="1645692642221" duration="2388000" />
+      <workItem from="1633676449072" duration="11570000" />
+      <workItem from="1641636297684" duration="330000" />
+      <workItem from="1641636721224" duration="4000" />
+      <workItem from="1646061241598" duration="31000" />
     </task>
     <servers />
   </component>
@@ -184,55 +154,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/chuyx/leecode/LeetCode155.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="85" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/chuyx/leecode/LeetCode155.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="87" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/chuyx/practice/QuitSort.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="104" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/chuyx/leecode/LeeCode143.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="125" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <pin-to-top-manager>
-      <pinned-members>
-        <PinnedItemInfo parentTag="realization.queue.ListQueue$Node" memberName="this$0" />
-        <PinnedItemInfo parentTag="practice.LinkedListString$Node" memberName="next" />
-        <PinnedItemInfo parentTag="practice.LinkedListString$Node" memberName="data" />
-      </pinned-members>
-    </pin-to-top-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="center.data" />
-        <watch expression="center" />
-        <watch expression="reverse.next.next" />
-        <watch expression="reverse.next.next.next" />
-        <watch expression="reverse" />
-        <watch expression="reverse" />
-        <watch expression="lruTest.list.next.next" />
-        <watch expression="listNode.next.next" />
-        <watch expression="listNode" />
-        <watch expression="listNode.next" />
-        <watch expression="listNode.next.next" />
-        <watch expression="listNode1.next.next" />
-        <watch expression="listNode1.next.next.next.next.next.next" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
