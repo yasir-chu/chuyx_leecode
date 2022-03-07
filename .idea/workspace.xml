@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="480e5cff-c09e-46e2-b979-fdc3e979df38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeeCode94.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeeCode102.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -67,9 +67,9 @@
       <recent name="E:\ideaProject\chuyx_leecode\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LeeCode92">
-    <configuration name="LeeCode77" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.LeeCode77" />
+  <component name="RunManager" selected="Application.LeeCode102">
+    <configuration name="LeeCode102" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.LeeCode102" />
       <module name="chuyx_leecode" />
       <extension name="coverage">
         <pattern>
@@ -133,24 +133,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeeCode102" />
         <item itemvalue="Application.LeeCode92" />
         <item itemvalue="Application.LeeCode912" />
         <item itemvalue="Application.Trie" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.LeeCode77" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +185,7 @@
       <workItem from="1646192735767" duration="8928000" />
       <workItem from="1646286458635" duration="12360000" />
       <workItem from="1646377229009" duration="4462000" />
+      <workItem from="1646637199872" duration="2682000" />
     </task>
     <servers />
   </component>
@@ -228,6 +231,16 @@
           <url>file://$PROJECT_DIR$/chuyx/leecode/LeeCode92.java</url>
           <line>21</line>
           <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/chuyx/leecode/LeeCode102.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/chuyx/leecode/LeeCode102.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="155" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
