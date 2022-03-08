@@ -1,17 +1,16 @@
 package leecode;
 
 import java.util.HashMap;
-import java.util.List;
 
 /**
  * 此题图解，进leecode官网看：https://leetcode-cn.com/problems/intersection-of-two-linked-lists/
  * @author yuxiang.chu
  * @date 2022/1/27 10:15
  **/
-public class LeeCode160 {
+public class LeetCode160 {
 
     public static void main(String[] args) {
-        Solution solution = new LeeCode160().new Solution();
+        Solution solution = new LeetCode160().new Solution();
         ListNode item = new ListNode(8, new ListNode(4, new ListNode(5)));
         ListNode listNode = new ListNode(4, new ListNode(1, item));
         ListNode listNode2 = new ListNode(5, new ListNode(6, new ListNode(1, item)));
