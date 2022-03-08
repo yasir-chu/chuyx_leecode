@@ -7,7 +7,7 @@ package realization.list;
 public class Test {
 
     public static void main(String[] args) {
-
+        testMyLinkedList();
     }
 
     public static void testMyLinkedList(){

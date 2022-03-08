@@ -30,12 +30,13 @@ public class LeetCode69 {
 
     public static void main(String[] args) {
         Solution solution = new LeetCode69().new Solution();
-        System.out.println(solution.mySqrt2(4));
+        System.out.println(solution.mySqrt4(8));
 
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+        // 二分法
         public int mySqrt(int x) {
             if (x == 1 || x == 0) {
                 return x;
@@ -43,7 +44,7 @@ public class LeetCode69 {
             long start = 0L;
             long end = (long) x;
             while (true) {
-                // 因为判断了左右编辑 所以这里就不需要进行边界考虑
+                // 因为判断了左右边界 所以这里就不需要进行边界考虑
                 long mid = (start + end) / 2;
                 if (mid * mid == (long) x) {
                     return Integer.parseInt(String.valueOf(mid));
@@ -79,6 +80,35 @@ public class LeetCode69 {
                 }
             }
             return start;
+        }
+
+
+        // 牛顿迭代法  使用切线方程 啥的
+        public int mySqrt3(int x) {
+            double l = 0;
+            // 这里取值是因为x的平方根必定大于x/2+1;
+            double r = (double)x/2 + 1;
+            while (l != r){
+                // 使用切线方程
+                l = r;
+                r = (r + x/r)/2;
+            }
+            return (int)r;
+
+        }
+
+        // 求立方根
+        public double mySqrt4(double x) {
+            double l = 0;
+            // 这里取值是因为x的平方根必定大于x/2+1;
+            double r = x;
+            while (l != r){
+                // 使用切线方程
+                l = r;
+                r = (2*r + x/(r*r))/3;
+            }
+            return r;
+
         }
     }
 }
