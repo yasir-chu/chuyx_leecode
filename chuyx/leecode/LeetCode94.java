@@ -8,10 +8,10 @@ import java.util.List;
 /**
  * @author chuyx
  */
-public class LeeCode94 {
+public class LeetCode94 {
 
     public static void main(String[] args) {
-        Solution solution = new LeeCode94().new Solution();
+        Solution solution = new LeetCode94().new Solution();
 
     }
 

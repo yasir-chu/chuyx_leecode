@@ -1,7 +1,5 @@
 package leecode;
 
-import org.w3c.dom.NodeList;
-
 /**
  * 给你一个链表的头节点 head 和一个整数 val ，请你删除链表中所有满足 Node.val == val
  *
@@ -31,10 +29,10 @@ import org.w3c.dom.NodeList;
  * @author yuxiang.chu
  * @date 2022/1/27 13:37
  **/
-public class LeeCode203 {
+public class LeetCode203 {
 
     public static void main(String[] args) {
-        Solution solution = new LeeCode203().new Solution();
+        Solution solution = new LeetCode203().new Solution();
         ListNode listNode = new ListNode(7, new ListNode(7, new ListNode(7, new ListNode(7, null))));
         ListNode listNode1 = solution.removeElements2(listNode, 7);
     }
