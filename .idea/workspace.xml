@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d86ddbc-d07d-47f4-8f9c-cf528b2b7201" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeetCode138.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+    <list default="true" id="480e5cff-c09e-46e2-b979-fdc3e979df38" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,17 +28,17 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/chuyx/leecode/LeetCode75.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/chuyx/realization/list/MyLinkedList.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/chuyx/leecode/LeetCode77.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/chuyx/realization/list/Test.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/chuyx/realization/graph/Graph.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/chuyx/leecode/LeetCode69.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/chuyx/realization/list/LRUTest.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/chuyx/leecode/LeetCode102.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/chuyx/realization/graph/Graph.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/chuyx/leecode/LeetCode69.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/chuyx/realization/list/Test.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/chuyx/practice/LinkedListString.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/chuyx/leecode/LeetCode92.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/chuyx/realization/trie/Trie.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/chuyx/leecode/LeetCode92.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/chuyx/leecode/LeetCode75.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1ynur5l2tBGwZLD4pqm0PONewSB" />
   <component name="ProjectViewState">
