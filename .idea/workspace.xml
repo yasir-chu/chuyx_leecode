@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="480e5cff-c09e-46e2-b979-fdc3e979df38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeetCode12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeetCode17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeetCode876.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/realization/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/test/jmath/TestBigDecimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/test/jmath/update611/TestUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/test/lock/FairNoFairTest/FairAndUnfairTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/test/lock/TestHaMapDead/ForHashMapTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chuyx/pantarrn/SingleBean.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,16 +37,17 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/chuyx/leecode/LeetCode69.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/chuyx/realization/list/MyLinkedList.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/chuyx/leecode/LeetCode92.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/chuyx/realization/list/Test.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/chuyx/leecode/LeetCode77.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/chuyx/realization/list/LRUTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/chuyx/realization/trie/Trie.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/chuyx/leecode/LeetCode102.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/chuyx/practice/LinkedListString.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/chuyx/realization/trie/Trie.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/chuyx/leecode/LeetCode92.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/chuyx/leecode/LeetCode77.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/chuyx/realization/list/LRUTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/chuyx/leecode/LeetCode69.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/chuyx/leecode/LeetCode75.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/chuyx/leecode/LeetCode12.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/chuyx/realization/graph/Graph.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1ynur5l2tBGwZLD4pqm0PONewSB" />
@@ -52,7 +60,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chuyx_design_pattern" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -61,12 +69,25 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="settings.editor.selected.configurable" value="leetcode.id" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.LeetCode12">
-    <configuration name="LeetCode11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.LeetCode11" />
+  <component name="RunManager" selected="Application.LeetCode876">
+    <configuration name="ForHashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.lock.TestHaMapDead.ForHashMapTest" />
+      <module name="chuyx_leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.lock.TestHaMapDead.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.LeetCode17" />
       <module name="chuyx_leecode" />
       <extension name="coverage">
         <pattern>
@@ -78,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode119" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.LeetCode119" />
+    <configuration name="LeetCode876" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.LeetCode876" />
       <module name="chuyx_leecode" />
       <extension name="coverage">
         <pattern>
@@ -91,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.LeetCode12" />
+    <configuration name="MergeSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.MergeSortTest" />
       <module name="chuyx_leecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leecode.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.LeetCode4" />
+    <configuration name="TestBigDecimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.jmath.TestBigDecimal" />
       <module name="chuyx_leecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leecode.*" />
+          <option name="PATTERN" value="test.jmath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,39 +138,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.LeetCode6" />
-      <module name="chuyx_leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leecode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LeetCode12" />
-        <item itemvalue="Application.LeetCode11" />
-        <item itemvalue="Application.LeetCode6" />
-        <item itemvalue="Application.LeetCode4" />
-        <item itemvalue="Application.LeetCode119" />
+        <item itemvalue="Application.LeetCode876" />
+        <item itemvalue="Application.LeetCode17" />
+        <item itemvalue="Application.TestBigDecimal" />
+        <item itemvalue="Application.MergeSortTest" />
+        <item itemvalue="Application.ForHashMapTest" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +176,20 @@
       <workItem from="1646833970381" duration="1064000" />
       <workItem from="1646977761695" duration="1775000" />
       <workItem from="1648450644932" duration="4853000" />
-      <workItem from="1648536228907" duration="1470000" />
+      <workItem from="1648536228907" duration="2329000" />
+      <workItem from="1648622818126" duration="2114000" />
+      <workItem from="1648688494952" duration="4455000" />
+      <workItem from="1649836149671" duration="785000" />
+      <workItem from="1650520369597" duration="1911000" />
+      <workItem from="1650769702885" duration="1945000" />
+      <workItem from="1653873538586" duration="45000" />
+      <workItem from="1653875600688" duration="27000" />
+      <workItem from="1653875695543" duration="3636000" />
+      <workItem from="1654048414083" duration="4895000" />
+      <workItem from="1655112631154" duration="3879000" />
+      <workItem from="1655544509278" duration="5758000" />
+      <workItem from="1656324431053" duration="589000" />
+      <workItem from="1656325117013" duration="4022000" />
     </task>
     <servers />
   </component>
@@ -203,11 +222,6 @@
           <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/chuyx/practice/QuitSort.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="104" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/chuyx/leecode/LeetCode143.java</url>
           <line>68</line>
           <option name="timeStamp" value="125" />
@@ -216,6 +230,16 @@
           <url>file://$PROJECT_DIR$/chuyx/leecode/LeetCode92.java</url>
           <line>21</line>
           <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/chuyx/test/jmath/TestBigDecimal.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/chuyx/leecode/LeetCode876.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="154" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
