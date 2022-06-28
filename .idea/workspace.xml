@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="480e5cff-c09e-46e2-b979-fdc3e979df38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeetCode17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeetCode876.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chuyx/realization/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chuyx/test/jmath/TestBigDecimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chuyx/test/jmath/update611/TestUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chuyx/test/lock/FairNoFairTest/FairAndUnfairTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chuyx/test/lock/TestHaMapDead/ForHashMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeetCode328.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuyx/pantarrn/SingleBean.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +64,13 @@
     <property name="settings.editor.selected.configurable" value="leetcode.id" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.LeetCode876">
-    <configuration name="ForHashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.lock.TestHaMapDead.ForHashMapTest" />
+  <component name="RunManager" selected="Application.LeetCode328">
+    <configuration name="LeetCode17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.LeetCode17" />
       <module name="chuyx_leecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.lock.TestHaMapDead.*" />
+          <option name="PATTERN" value="leecode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.LeetCode17" />
+    <configuration name="LeetCode328" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.LeetCode328" />
       <module name="chuyx_leecode" />
       <extension name="coverage">
         <pattern>
@@ -151,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode328" />
         <item itemvalue="Application.LeetCode876" />
         <item itemvalue="Application.LeetCode17" />
         <item itemvalue="Application.TestBigDecimal" />
         <item itemvalue="Application.MergeSortTest" />
-        <item itemvalue="Application.ForHashMapTest" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +181,7 @@
       <workItem from="1655112631154" duration="3879000" />
       <workItem from="1655544509278" duration="5758000" />
       <workItem from="1656324431053" duration="589000" />
-      <workItem from="1656325117013" duration="4022000" />
+      <workItem from="1656325117013" duration="5860000" />
     </task>
     <servers />
   </component>
@@ -237,9 +229,9 @@
           <option name="timeStamp" value="150" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/chuyx/leecode/LeetCode876.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="154" />
+          <url>file://$PROJECT_DIR$/chuyx/leecode/LeetCode328.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="155" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
