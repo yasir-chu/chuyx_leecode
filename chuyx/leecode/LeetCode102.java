@@ -5,6 +5,8 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
+ * 执行耗时:0 ms,击败了100.00% 的Java用户
+ * 内存消耗:38.7 MB,击败了71.82% 的Java用户
  * @author yuxiang.chu
  * @date 2022/3/7 14:44
  **/

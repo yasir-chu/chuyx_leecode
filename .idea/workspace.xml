@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="480e5cff-c09e-46e2-b979-fdc3e979df38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeetCode401.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeetCode100.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeetCode98.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chuyx/leecode/LeetCode102.java" beforeDir="false" afterPath="$PROJECT_DIR$/chuyx/leecode/LeetCode102.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +67,7 @@
     <property name="settings.editor.selected.configurable" value="leetcode.id" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.LeetCode401">
+  <component name="RunManager" selected="Application.LeetCode98">
     <configuration name="LeetCode17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leecode.LeetCode17" />
       <module name="chuyx_leecode" />
@@ -118,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBigDecimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.jmath.TestBigDecimal" />
+    <configuration name="LeetCode98" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.LeetCode98" />
       <module name="chuyx_leecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.jmath.*" />
+          <option name="PATTERN" value="leecode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,24 +133,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode98" />
         <item itemvalue="Application.LeetCode401" />
         <item itemvalue="Application.LeetCode328" />
         <item itemvalue="Application.LeetCode876" />
         <item itemvalue="Application.LeetCode17" />
-        <item itemvalue="Application.TestBigDecimal" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +186,8 @@
       <workItem from="1655112631154" duration="3879000" />
       <workItem from="1655544509278" duration="5758000" />
       <workItem from="1656324431053" duration="589000" />
-      <workItem from="1656325117013" duration="10503000" />
+      <workItem from="1656325117013" duration="10552000" />
+      <workItem from="1656386605025" duration="8702000" />
     </task>
     <servers />
   </component>
