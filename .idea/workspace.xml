@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="480e5cff-c09e-46e2-b979-fdc3e979df38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeetCode328.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeetCode401.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +65,7 @@
     <property name="settings.editor.selected.configurable" value="leetcode.id" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.LeetCode328">
+  <component name="RunManager" selected="Application.LeetCode401">
     <configuration name="LeetCode17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leecode.LeetCode17" />
       <module name="chuyx_leecode" />
@@ -91,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode876" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.LeetCode876" />
+    <configuration name="LeetCode401" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.LeetCode401" />
       <module name="chuyx_leecode" />
       <extension name="coverage">
         <pattern>
@@ -104,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.MergeSortTest" />
+    <configuration name="LeetCode876" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.LeetCode876" />
       <module name="chuyx_leecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="leecode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode401" />
         <item itemvalue="Application.LeetCode328" />
         <item itemvalue="Application.LeetCode876" />
         <item itemvalue="Application.LeetCode17" />
         <item itemvalue="Application.TestBigDecimal" />
-        <item itemvalue="Application.MergeSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +182,7 @@
       <workItem from="1655112631154" duration="3879000" />
       <workItem from="1655544509278" duration="5758000" />
       <workItem from="1656324431053" duration="589000" />
-      <workItem from="1656325117013" duration="5860000" />
+      <workItem from="1656325117013" duration="10503000" />
     </task>
     <servers />
   </component>
@@ -233,6 +234,11 @@
           <line>20</line>
           <option name="timeStamp" value="155" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/chuyx/leecode/LeetCode401.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
@@ -260,6 +266,7 @@
         <watch expression="listNodes" />
         <watch expression="listNode1.next.next.next.next" />
         <watch expression="listNode1.next.next.next" />
+        <watch expression="strings" />
       </configuration>
     </watches-manager>
   </component>
