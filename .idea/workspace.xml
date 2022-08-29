@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="480e5cff-c09e-46e2-b979-fdc3e979df38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chuyx/test/threadpool/TestThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/test/annotationtest/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/test/annotationtest/One.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/test/annotationtest/TestAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/test/annotationtest/Two.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -64,13 +68,13 @@
     <property name="settings.editor.selected.configurable" value="leetcode.id" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.TestThreadPool">
-    <configuration name="LeetCode101" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.LeetCode101" />
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.annotationtest.Demo" />
       <module name="chuyx_leecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leecode.*" />
+          <option name="PATTERN" value="test.annotationtest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,26 +134,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.TestThreadPool" />
         <item itemvalue="Application.Test1" />
         <item itemvalue="Application.LeetCode148" />
         <item itemvalue="Application.LeetCode1175" />
-        <item itemvalue="Application.LeetCode101" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +192,10 @@
       <workItem from="1660557537889" duration="2494000" />
       <workItem from="1660613764784" duration="1165000" />
       <workItem from="1660640845422" duration="4311000" />
-      <workItem from="1660720499968" duration="3150000" />
+      <workItem from="1660720499968" duration="4646000" />
+      <workItem from="1661130128872" duration="590000" />
+      <workItem from="1661164656288" duration="589000" />
+      <workItem from="1661743902854" duration="880000" />
     </task>
     <servers />
   </component>
