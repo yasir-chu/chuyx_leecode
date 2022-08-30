@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="480e5cff-c09e-46e2-b979-fdc3e979df38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chuyx/test/annotationtest/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chuyx/test/annotationtest/One.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chuyx/test/annotationtest/TestAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chuyx/test/annotationtest/Two.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/test/TestFor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/test/testgp/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,10 +63,23 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="leetcode.id" />
+    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Demo">
+  <component name="RunManager" selected="Application.TestFor">
+    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.testgp.Demo" />
+      <module name="chuyx_leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.testgp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.annotationtest.Demo" />
       <module name="chuyx_leecode" />
@@ -82,38 +93,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode1175" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.LeetCode1175" />
-      <module name="chuyx_leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leecode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeetCode148" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.LeetCode148" />
-      <module name="chuyx_leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leecode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.bytetest.Test1" />
       <module name="chuyx_leecode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.bytetest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.TestFor" />
+      <module name="chuyx_leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestFor" />
+        <item itemvalue="Application.Demo (1)" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.TestThreadPool" />
         <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.LeetCode148" />
-        <item itemvalue="Application.LeetCode1175" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +193,7 @@
       <workItem from="1660720499968" duration="4646000" />
       <workItem from="1661130128872" duration="590000" />
       <workItem from="1661164656288" duration="589000" />
-      <workItem from="1661743902854" duration="880000" />
+      <workItem from="1661743902854" duration="5688000" />
     </task>
     <servers />
   </component>
