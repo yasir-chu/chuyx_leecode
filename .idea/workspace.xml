@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="480e5cff-c09e-46e2-b979-fdc3e979df38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeetCode934.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeetCode437.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeetCode862.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/leecode/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -62,7 +64,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;leetcode.id&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LeetCode934">
+  <component name="RunManager" selected="Application.LeetCode862">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -76,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode707" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.LeetCode707" />
+    <configuration name="LeetCode862" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.LeetCode862" />
       <module name="chuyx_leecode" />
       <extension name="coverage">
         <pattern>
@@ -143,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode862" />
         <item itemvalue="Application.LeetCode934" />
         <item itemvalue="Application.LeetCode915" />
         <item itemvalue="Application.Test0102" />
         <item itemvalue="Application.Test1719" />
-        <item itemvalue="Application.LeetCode707" />
       </list>
     </recent_temporary>
   </component>
@@ -195,6 +197,7 @@
       <workItem from="1661939411153" duration="1384000" />
       <workItem from="1663918358584" duration="8572000" />
       <workItem from="1664155931324" duration="10302000" />
+      <workItem from="1666686860213" duration="9779000" />
     </task>
     <servers />
   </component>
@@ -249,11 +252,6 @@
           <url>file://$PROJECT_DIR$/chuyx/leecode/LeetCode401.java</url>
           <line>43</line>
           <option name="timeStamp" value="173" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/chuyx/leecode/LeetCode934.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="230" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
