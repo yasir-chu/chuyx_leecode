@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="480e5cff-c09e-46e2-b979-fdc3e979df38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeetCode1137.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeetCode746.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeetCode1704.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -63,7 +62,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;leetcode.id&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LeetCode1137">
+  <component name="RunManager" selected="Application.LeetCode1704">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -79,6 +78,19 @@
     </configuration>
     <configuration name="LeetCode1137" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leecode.LeetCode1137" />
+      <module name="chuyx_leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leecode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode1704" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.LeetCode1704" />
       <module name="chuyx_leecode" />
       <extension name="coverage">
         <pattern>
@@ -129,26 +141,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode816" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.LeetCode816" />
-      <module name="chuyx_leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leecode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode1704" />
         <item itemvalue="Application.LeetCode1137" />
         <item itemvalue="Application.LeetCode746" />
         <item itemvalue="Application.LeetCode500" />
         <item itemvalue="Application.LeetCode764" />
-        <item itemvalue="Application.LeetCode816" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +200,8 @@
       <workItem from="1667799861439" duration="9150000" />
       <workItem from="1667870704183" duration="1197000" />
       <workItem from="1667898947968" duration="14481000" />
-      <workItem from="1668062088907" duration="5751000" />
+      <workItem from="1668062088907" duration="6495000" />
+      <workItem from="1668148707408" duration="1282000" />
     </task>
     <servers />
   </component>
