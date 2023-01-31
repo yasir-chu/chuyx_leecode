@@ -31,3 +31,5 @@ rebel.xml
 .rebel-remote.xml.*
 
 ../chuyx/*/*.class
+
+*/*.xml
