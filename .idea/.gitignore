@@ -1,11 +1,8 @@
-.idea
-*.iml
-out
-
-
 #idea
 .idea/
+.out/
 target/
+*.iml
 *.ipr
 *.iws
 *.log
@@ -32,5 +29,7 @@ node_modules/
 .svn/
 rebel.xml
 .rebel-remote.xml.*
-../.idea/*.xml
+
 ../chuyx/*/*.class
+
+*/*.xml

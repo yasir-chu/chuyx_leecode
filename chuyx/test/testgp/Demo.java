@@ -1,6 +1,7 @@
 package test.testgp;
 
 import java.util.Collections;
+import java.util.Date;
 import java.util.List;
 import java.util.function.Function;
 
@@ -11,9 +12,13 @@ import java.util.function.Function;
 public interface Demo {
 
     static void main(String[] args) {
-        List<String> test = test(1);
-        System.out.println(test.get(0).getClass().toString());
-        System.out.println(test);
+        Date beginDate = new Date(1679622710000L);
+        Date endTime = new Date(1679644733000L);
+        Long betweenNum = endTime.getTime() - beginDate.getTime();
+        Long days = betweenNum / (60 * 60 * 24 * 1000L);
+        Long a = betweenNum % (60 * 60 * 24 * 1000L) != 0L ? days + 1 : days;
+        System.out.println(a);
+
 
     }
 
