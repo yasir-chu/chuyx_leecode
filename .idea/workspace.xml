@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="480e5cff-c09e-46e2-b979-fdc3e979df38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeetCode1013.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chuyx/leecode/LeetCode136.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuyx/test/TestFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/chuyx/test/NormalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuyx/test/testgp/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/chuyx/test/testgp/Demo.java" afterDir="false" />
-    </list>
+    <list default="true" id="480e5cff-c09e-46e2-b979-fdc3e979df38" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,6 +58,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;leetcode.id&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\proj\chuyx_leecode\.idea" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.LeetCode1013">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
@@ -215,7 +212,7 @@
       <workItem from="1679397290875" duration="598000" />
       <workItem from="1679561147572" duration="6846000" />
       <workItem from="1679645960244" duration="595000" />
-      <workItem from="1680160594981" duration="4166000" />
+      <workItem from="1680160594981" duration="4469000" />
     </task>
     <servers />
   </component>
