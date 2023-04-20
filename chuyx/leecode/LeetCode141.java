@@ -12,6 +12,7 @@ public class LeetCode141 {
     }
 
     public class Solution {
+        // 100 45
         public boolean hasCycle(ListNode head) {
             if (head == null || head.next == null) {
                 return false;
