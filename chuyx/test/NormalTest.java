@@ -6,6 +6,7 @@ import javax.crypto.spec.SecretKeySpec;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+import java.nio.charset.StandardCharsets;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 import java.util.*;
@@ -22,9 +23,13 @@ import java.util.stream.Collectors;
 public class NormalTest {
 
     public static void main(String[] args) throws Exception {
-        List<String> strings = Arrays.asList("1", "2");
-        List<String> a = new ArrayList<>(strings);
-        a.add("3");
+        LinkedList<String> testItem = new LinkedList<>();
+        testItem.add("1");
+        testItem.add("2");
+        testItem.add("3");
+        System.out.println(testItem.toArray().getClass());
+        System.out.println(Object[].class);
+        ArrayList<String> strings = new ArrayList<>(testItem);
 
     }
 
