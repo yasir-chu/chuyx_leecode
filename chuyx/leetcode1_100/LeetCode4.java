@@ -1,0 +1,158 @@
+package leetcode1_100;
+
+/**
+ * @author yuxiang.chu
+ * @date 2022/3/10 9:15
+ **/
+public class LeetCode4 {
+
+    public static void main(String[] args) {
+        Solution solution = new LeetCode4.Solution();
+        int[] a = {1, 2};
+        int[] b = {3, 4};
+        System.out.println(solution.findMedianSortedArrays2(a, b));
+    }
+
+    static class Solution {
+
+        /**
+         * 自研 100 的 44.33
+         * 研究不要新排序好的数组进行
+         *
+         * @param nums1
+         * @param nums2
+         * @return
+         */
+        public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+            int i = 0, j = 0;
+            int length = nums1.length + nums2.length;
+            int[] res = new int[length];
+            int num = 0;
+            while (i < nums1.length || j < nums2.length) {
+                for (; j < nums2.length; j++) {
+                    if (i >= nums1.length || nums1[i] >= nums2[j]) {
+                        res[num++] = nums2[j];
+                    } else {
+                        res[num++] = nums1[i];
+                        break;
+                    }
+                }
+                if (j >= nums2.length && num < length && i < nums1.length) {
+                    res[num++] = nums1[i];
+                }
+                i++;
+            }
+            if (length % 2 == 0) {
+                return ((double) res[length / 2 - 1] + res[length / 2]) / 2;
+            } else {
+                return ((double) res[length / 2]);
+            }
+        }
+
+
+        /**
+         * 100 37.7 减少了循环次数 且 减少了空间的使用 多了判断
+         *
+         * @param nums1
+         * @param nums2
+         * @return
+         */
+        public double findMedianSortedArrays2(int[] nums1, int[] nums2) {
+            int i = 0, j = 0;
+            int length = nums1.length + nums2.length;
+            int[] res = new int[length / 2 + 1];
+            int num = 0;
+            while (i < nums1.length || j < nums2.length) {
+                for (; j < nums2.length && num < length / 2 + 1; j++) {
+                    if (i >= nums1.length || nums1[i] >= nums2[j]) {
+                        res[num++] = nums2[j];
+                    } else {
+                        res[num++] = nums1[i];
+                        break;
+                    }
+                }
+                if (j >= nums2.length && num < length / 2 + 1 && i < nums1.length) {
+                    res[num++] = nums1[i];
+                }
+                i++;
+                if (num - 1 == length / 2 && length % 2 != 0) {
+                    return ((double) res[length / 2]);
+                } else if (num - 1 == length / 2 && length % 2 == 0) {
+                    return ((double) res[length / 2 - 1] + res[length / 2]) / 2;
+                }
+            }
+            return 0d;
+        }
+
+
+        /**
+         * 二分法  时间复杂度log(m+n) 空间复杂度O(1)
+         *
+         * @param nums1
+         * @param nums2
+         * @return
+         */
+        public double findMedianSortedArrays3(int[] nums1, int[] nums2) {
+            int length = nums1.length + nums2.length;
+            // 只取中间那个值即可
+            if (length % 2 == 1) {
+                int midIndex = length / 2;
+                return getKthElement(nums1, nums2, midIndex + 1);
+            } else {
+                // 只取中间那个两个值相加的一般
+                int midIndex1 = length / 2 - 1, midIndex2 = length / 2;
+                return (getKthElement(nums1, nums2, midIndex1 + 1) + getKthElement(nums1, nums2, midIndex2 + 1)) / 2.0;
+            }
+        }
+
+        /**
+         * todo
+         * @param nums1
+         * @param nums2
+         * @param k
+         * @return
+         */
+        public int getKthElement(int[] nums1, int[] nums2, int k) {
+            /* 主要思路：要找到第 k (k>1) 小的元素，那么就取 pivot1 = nums1[k/2-1] 和 pivot2 = nums2[k/2-1] 进行比较
+             * 这里的 "/" 表示整除
+             * nums1 中小于等于 pivot1 的元素有 nums1[0 .. k/2-2] 共计 k/2-1 个
+             * nums2 中小于等于 pivot2 的元素有 nums2[0 .. k/2-2] 共计 k/2-1 个
+             * 取 pivot = min(pivot1, pivot2)，两个数组中小于等于 pivot 的元素共计不会超过 (k/2-1) + (k/2-1) <= k-2 个
+             * 这样 pivot 本身最大也只能是第 k-1 小的元素
+             * 如果 pivot = pivot1，那么 nums1[0 .. k/2-1] 都不可能是第 k 小的元素。把这些元素全部 "删除"，剩下的作为新的 nums1 数组
+             * 如果 pivot = pivot2，那么 nums2[0 .. k/2-1] 都不可能是第 k 小的元素。把这些元素全部 "删除"，剩下的作为新的 nums2 数组
+             * 由于我们 "删除" 了一些元素（这些元素都比第 k 小的元素要小），因此需要修改 k 的值，减去删除的数的个数
+             */
+
+            int length1 = nums1.length, length2 = nums2.length;
+            int index1 = 0, index2 = 0;
+            int kthElement = 0;
+
+            while (true) {
+                // 边界情况
+                if (index1 == length1) {
+                    return nums2[index2 + k - 1];
+                }
+                if (index2 == length2) {
+                    return nums1[index1 + k - 1];
+                }
+                if (k == 1) {
+                    return Math.min(nums1[index1], nums2[index2]);
+                }
+
+                // 正常情况
+                int half = k / 2;
+                int newIndex1 = Math.min(index1 + half, length1) - 1;
+                int newIndex2 = Math.min(index2 + half, length2) - 1;
+                int pivot1 = nums1[newIndex1], pivot2 = nums2[newIndex2];
+                if (pivot1 <= pivot2) {
+                    k -= (newIndex1 - index1 + 1);
+                    index1 = newIndex1 + 1;
+                } else {
+                    k -= (newIndex2 - index2 + 1);
+                    index2 = newIndex2 + 1;
+                }
+            }
+        }
+    }
+}
