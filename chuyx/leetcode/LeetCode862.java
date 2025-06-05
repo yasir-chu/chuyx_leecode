@@ -1,6 +1,6 @@
 package leetcode;
 
-import javafx.util.Pair;
+
 
 import java.util.*;
 
@@ -120,22 +120,28 @@ public class LeetCode862 {
             return res == Integer.MAX_VALUE ? -1 : res;
         }
 
+        /**
+         * todo jdk21 Pari没了 带修正
+         * @param nums
+         * @param k
+         * @return
+         */
 
         public int shortestSubarrayNiubi2(int[] nums, int k) {
             int res = Integer.MAX_VALUE;
-            Deque<Pair<Long, Integer>> q = new ArrayDeque<>();
-            q.add(new Pair<>(0L, -1));
-            long cus = 0;
-            for (int i = 0; i < nums.length; i++) {
-                cus += nums[i];
-                while (!q.isEmpty() && (cus - q.peekFirst().getKey()) >= k) {
-                    res = Math.min(res, i - Objects.requireNonNull(q.pollFirst()).getValue());
-                }
-                while (!q.isEmpty() && q.peekLast().getKey()>= cus) {
-                    q.pollLast();
-                }
-                q.addLast(new Pair<>(cus, i));
-            }
+//            Deque<Pair<Long, Integer>> q = new ArrayDeque<>();
+//            q.add(new Pair<>(0L, -1));
+//            long cus = 0;
+//            for (int i = 0; i < nums.length; i++) {
+//                cus += nums[i];
+//                while (!q.isEmpty() && (cus - q.peekFirst().getKey()) >= k) {
+//                    res = Math.min(res, i - Objects.requireNonNull(q.pollFirst()).getValue());
+//                }
+//                while (!q.isEmpty() && q.peekLast().getKey()>= cus) {
+//                    q.pollLast();
+//                }
+//                q.addLast(new Pair<>(cus, i));
+//            }
             return res == Integer.MAX_VALUE ? -1 : res;
         }
     }

@@ -1,6 +1,5 @@
 package test;
 
-import jdk.nashorn.internal.parser.JSONParser;
 
 import javax.net.ssl.HttpsURLConnection;
 import java.io.BufferedReader;
